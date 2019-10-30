@@ -1,0 +1,30 @@
+{
+  "name": "day4",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "dk_test_names": "^1.1.0",
+    "json-server": "^0.15.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-scripts": "2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "book-backend": "json-server -p 4000 --watch booksdb.json",
+    "dataserver": "json-server --watch country_data.json --port 3333"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
